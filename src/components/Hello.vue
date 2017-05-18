@@ -4,7 +4,7 @@
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Vue.js docs</a></li>
       <li><a href="https://github.com/vuedev-com/vue-circle-slider" target="_blank">Plugin repo</a></li>
-      <li><a href="javascript:;" target="_blank">This demo repo</a></li>
+      <li><a href="https://github.com/vuedev-com/vue-circle-slider-demo" target="_blank">This demo repo</a></li>
     </ul>
 
     <div class="container-fluid">
@@ -82,6 +82,16 @@
         ></circle-slider>
         <div slot="external">{{ val6 }}</div>
       </example>
+
+      <example :title="exs.ex7.title" :desc="exs.ex7.desc" :snippet="exs.ex7.snippet">
+        <circle-slider
+          v-model="val7"
+          @touchmove="$refs.input.blur()"
+        ></circle-slider>
+        <!-- @touchmove="$refs.input.blur()" - hide keyboard on touchmove at mobile devices -->
+        <input ref="input" type="number" v-model.number="val7" />
+      </example>
+
     </div>
 
   </div>
@@ -102,6 +112,7 @@ export default {
       val4: 50,
       val5: 50,
       val6: 25,
+      val7: 10,
 
       exs: {
         ex1: {
@@ -200,6 +211,18 @@ export default {
 ></circle-slider>
 
 <div>{{ val6 }}</div>`
+        },
+        ex7: {
+          title: 'Two-way binding',
+          desc: 'Two way binding with input field',
+          snippet: `\
+<circle-slider
+  v-model="val7"
+  @touchmove="$refs.input.blur()"
+></circle-slider>
+<!-- @touchmove="$refs.input.blur()" - hide keyboard on touchmove at mobile devices -->
+
+<input ref="input" type="number" v-model.number="val7" />`
         }
       }
     }
