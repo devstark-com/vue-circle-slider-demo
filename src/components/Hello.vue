@@ -3,8 +3,8 @@
     <h1>vue-circle-slider demo</h1>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Vue.js docs</a></li>
-      <li><a href="https://github.com/vuedev-com/vue-circle-slider" target="_blank">Plugin repo</a></li>
-      <li><a href="https://github.com/vuedev-com/vue-circle-slider-demo" target="_blank">This demo repo</a></li>
+      <li><a href="https://github.com/devstark-com/vue-circle-slider" target="_blank">Plugin repo</a></li>
+      <li><a href="https://github.com/devstark-com/vue-circle-slider-demo" target="_blank">This demo repo</a></li>
     </ul>
 
     <div class="container-fluid">

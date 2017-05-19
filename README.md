@@ -1,8 +1,8 @@
 # vue-circle-slider-demo
 
-Simple demo app for [vue-circle-slider](https://github.com/vuedev-com/vue-circle-slider) plugin
+Simple demo app for [vue-circle-slider](https://github.com/devstark-com/vue-circle-slider) plugin
 
-[Working example](https://vuedev-com.github.io/vue-circle-slider-demo/)
+[Working example](https://devstark-com.github.io/vue-circle-slider-demo/)
 
 ## Build Setup
 
