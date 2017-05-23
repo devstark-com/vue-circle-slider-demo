@@ -117,7 +117,7 @@
 
       <div class="row footer">
         <div class="col-md-12">
-          <h1>vue-circle-slider demo</h1>
+          <h1>vue-circle-slider</h1>
           <div class="">
               <!-- Place this tag where you want the button to render. -->
               <a class="github-button" href="https://github.com/devstark-com/vue-circle-slider/subscription" data-size="large" data-show-count="true" aria-label="Watch devstark-com/vue-circle-slider on GitHub">Watch</a>
