@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+}
+
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #42b983;
+}
+
+.snippet-title{
+  text-align: left;
+}
+.snippet {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.snippet pre {
+  background-color: transparent;
+  padding: 0 !important;
+  margin: 0 0 0 0 !important;
+  line-height: 1em;
+  height: auto;
+  min-height: auto;
+  font-size: 0;
+
+}
+.hljs {
+  padding: 20px 10px;
+  background-color: #f9f2f4;
+}
+pre code {
+  line-height: 1.5em;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 13px;
+}
+.snippet .ex-title {
+  text-align: left;
+}
+
+.snippet .ex-desc {
+  text-align: left;
+}
+
+.nav-sidebar {
+  text-align: left;
+}
+.header {
+  padding: 60px  0;
+  margin-bottom: 40px;
+  background-color: #f9f2f4;
+  border-bottom: 1px solid #ccc;
+}
+.footer {
+  border-top: 1px solid #ccc;
+  margin-top: 100px;
+  padding: 100px 0;
+  background-color: #f9f2f4;
+}
+.footer-logo {
+  max-height: 50px;
+}
+.btn-jsfiddle,
+.btn-jsfiddle:active,
+.btn-jsfiddle:focus {
+  padding-right: 45px;
+  background-image: url(jsfiddle.png);
+  background-repeat: no-repeat;
+  background-size: 23px 16px;
+  background-position: right 10px center;
+}
+

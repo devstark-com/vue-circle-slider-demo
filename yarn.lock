@@ -4365,6 +4365,10 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
+vue-circle-slider@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/vue-circle-slider/-/vue-circle-slider-0.0.4.tgz#19e4396d7e93e75fa327801a4042bf829e7b7df4"
+
 vue-hot-reload-api@^2.0.11:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.1.0.tgz#9ca58a6e0df9078554ce1708688b6578754d86de"
