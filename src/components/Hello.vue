@@ -53,21 +53,21 @@
           <example :title="exs.ex4.title" :desc="exs.ex4.desc" :fiddlelink="exs.ex4.fiddlelink" :snippet="exs.ex4.snippet">
             <circle-slider
               v-model="val4"
-              :circleWidth="8"
-              :progressWidth="12"
-              :knobRadius="10"
+              :circle-width="8"
+              :progress-width="12"
+              :knob-radius="10"
             ></circle-slider>
             <circle-slider
               v-model="val4"
-              :circleWidth="10"
-              :progressWidth="5"
-              :knobRadius="10"
+              :circle-width="10"
+              :progress-width="5"
+              :knob-radius="10"
             ></circle-slider>
             <circle-slider
               v-model="val4"
-              :circleWidth="12"
-              :progressWidth="3"
-              :knobRadius="4"
+              :circle-width="12"
+              :progress-width="3"
+              :knob-radius="4"
             ></circle-slider>
             <div slot="external">{{ val4 }}</div>
           </example>
@@ -75,9 +75,9 @@
           <example :title="exs.ex5.title" :desc="exs.ex5.desc" :fiddlelink="exs.ex5.fiddlelink" :snippet="exs.ex5.snippet">
             <circle-slider
               v-model="val5"
-              :circleWidthRel="30"
-              :progressWidthRel="15"
-              :knobRadiusRel="8"
+              :circle-width-rel="30"
+              :progress-width-rel="15"
+              :knob-radius-rel="8"
             ></circle-slider>
             <div slot="external">{{ val5 }}</div>
           </example>
@@ -85,21 +85,21 @@
           <example :title="exs.ex6.title" :desc="exs.ex6.desc" :fiddlelink="exs.ex6.fiddlelink" :snippet="exs.ex6.snippet">
             <circle-slider
               v-model="val6"
-              circleColor="#edeff0"
-              progressColor="#cecece"
-              knobColor="#a0a0ff"
+              circle-color="#edeff0"
+              progress-color="#cecece"
+              knob-color="#a0a0ff"
             ></circle-slider>
             <circle-slider
               v-model="val6"
-              circleColor="#f00"
-              progressColor="#0a0"
-              knobColor="#0c0"
+              circle-color="#f00"
+              progress-color="#0a0"
+              knob-color="#0c0"
             ></circle-slider>
             <circle-slider
               v-model="val6"
-              circleColor="#cecece"
-              progressColor="#00f"
-              knobColor="#5555ff"
+              circle-color="#cecece"
+              progress-color="#00f"
+              knob-color="#5555ff"
             ></circle-slider>
             <div slot="external">{{ val6 }}</div>
           </example>
@@ -174,7 +174,7 @@ export default {
             v-model="val2"
             :min="0"
             :max="10000"
-            :stepSize="100"
+            :step-size="100"
           ></circle-slider>
 
           <div>{{ val2 }}</div>`
@@ -196,37 +196,37 @@ export default {
           snippet: `\
           <circle-slider
             v-model="val4"
-            :circleWidth="8"
-            :progressWidth="12"
-            :knobRadius="10"
+            :circle-width="8"
+            :progress-width="12"
+            :knob-radius="10"
           ></circle-slider>
 
           <circle-slider
             v-model="val4"
-            :circleWidth="10"
-            :progressWidth="5"
-            :knobRadius="10"
+            :circle-width="10"
+            :progress-width="5"
+            :knob-radius="10"
           ></circle-slider>
 
           <circle-slider
             v-model="val4"
-            :circleWidth="12"
-            :progressWidth="3"
-            :knobRadius="4"
+            :circle-width="12"
+            :progress-width="3"
+            :knob-radius="4"
           ></circle-slider>
 
           <div>{{ val4 }}</div>`
         },
         ex5: {
           title: 'Relative sizes',
-          desc: 'Custom relative circumference and progress curve width, custom relative knob radius',
+          desc: 'Custom relative circumference and progress curve width, custom relative knob radius.<br />See params <b>knobRadiusRel</b>, <b>circleWidthRel</b> and <b>progressWidthRel</b> in <a href="https://github.com/devstark-com/vue-circle-slider#props" target="_blank">docs</a>',
           fiddlelink: 'https://jsfiddle.net/alexx_l/qfbnzgy5/',
           snippet: `\
           <circle-slider
             v-model="val5"
-            :circleWidthRel="30"
-            :progressWidthRel="15"
-            :knobRadiusRel="8"
+            :circle-width-rel="30"
+            :progress-width-rel="15"
+            :knob-radius-rel="8"
           ></circle-slider>
 
           <div>{{ val5 }}</div>`
@@ -238,23 +238,23 @@ export default {
           snippet: `\
           <circle-slider
             v-model="val6"
-            circleColor="#edeff0"
-            progressColor="#cecece"
-            knobColor="#a0a0ff"
+            circle-color="#edeff0"
+            progress-color="#cecece"
+            knob-color="#a0a0ff"
           ></circle-slider>
 
           <circle-slider
             v-model="val6"
-            circleColor="#f00"
-            progressColor="#0a0"
-            knobColor="#0c0"
+            circle-color="#f00"
+            progress-color="#0a0"
+            knob-color="#0c0"
           ></circle-slider>
 
           <circle-slider
             v-model="val6"
-            circleColor="#cecece"
-            progressColor="#00f"
-            knobColor="#5555ff"
+            circle-color="#cecece"
+            progress-color="#00f"
+            knob-color="#5555ff"
           ></circle-slider>
 
           <div>{{ val6 }}</div>`

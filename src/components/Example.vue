@@ -3,7 +3,7 @@
   <div class="row">
     <div class="col-md-12 snippet-title" :id="title">
       <h3 class="ex-title">{{ title }}</h3>
-      <h5 class="ex-desc" v-if="desc">{{ desc }}</h5>
+      <h5 class="ex-desc" v-if="desc" v-html="desc"></h5>
       <p><a :href="fiddlelink" target="_blank" class="btn btn-default btn-jsfiddle">Try it with JSfiddle</a></p>
     </div>
     <div class="col-md-8 col-sm-12 col-xs-12 snippet">
